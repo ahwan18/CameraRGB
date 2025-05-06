@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		A779DF4C2DCA1BDF004C38F4 /* CameraRGBTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraRGBTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A779DF602DCA3A74004C38F4 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,6 +41,7 @@
 		A779DF4D2DCA1BDF004C38F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				A779DF602DCA3A74004C38F4 /* CameraViewModel.swift */,
 				A779DF4C2DCA1BDF004C38F4 /* CameraRGBTest.app */,
 			);
 			name = Products;
@@ -256,6 +258,7 @@
 				DEVELOPMENT_TEAM = 6VYM8YZC9J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kami membutuhkan akses kamera untuk mendeteksi warna secara langsung";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +287,7 @@
 				DEVELOPMENT_TEAM = 6VYM8YZC9J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kami membutuhkan akses kamera untuk mendeteksi warna secara langsung";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
